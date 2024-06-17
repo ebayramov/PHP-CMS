@@ -31,14 +31,14 @@ This project is a Content Management System (CMS) developed using PHP and MySQL.
      git clone https://github.com/ebayramov/PHP-CMS.git
      ```
 3. **Database Configuration**:
-   - Import the `database.sql` file located in the project directory into your MySQL database.
+   - Import the `dump.sql` file located in the project directory into your MySQL database.
    - Update the database connection details in the `config.php` file.
 4. **Start the Application**:
    - Open your browser and navigate to `http://localhost/your-repo-name`.
 
 ## Usage
 1. **Login**:
-   - Go to `http://localhost/your-repo-name/admin`.
+   - Go to `http://localhost/db-site/admin/login.php`.
    - Enter the username `admin1` and password `admin123`.
 2. **Admin Dashboard**:
    - Manage website content by adding, editing, deleting, or changing the status of languages and their content.
